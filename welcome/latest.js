@@ -33,7 +33,7 @@ class Im3xWidget {
    */
   async renderSmall () {
     let w = new ListWidget()
-    let t = w.addText("❤️\n你好\n点击查阅文档")
+    let t = w.addText("❤️\n你好\n修改过的内容")
     t.centerAlignText()
     t.font = Font.lightSystemFont(14)
     w.url = this.loader ? this.getURIScheme('open-url', {
